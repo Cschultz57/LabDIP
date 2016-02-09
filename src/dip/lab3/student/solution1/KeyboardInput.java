@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dip.lab3;
+package dip.lab3.student.solution1;
 
 /**
  *
  * @author Carson Schultz
  */
+
 import java.util.Scanner;
 
 public class KeyboardInput implements InputMethods {

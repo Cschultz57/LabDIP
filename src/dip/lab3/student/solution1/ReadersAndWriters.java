@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dip.lab3;
+package dip.lab3.student.solution1;
 
 /**
  *
