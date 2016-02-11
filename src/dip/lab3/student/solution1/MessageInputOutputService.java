@@ -15,7 +15,7 @@ public class MessageInputOutputService {
     private MessageOutputMethods output;
     
     public void getOutput(MessageOutputMethods o) {
-        //still wrong so look into it
+        //still wrong look into it
     }
 
     public String getInput(MessageInputMethods i) {

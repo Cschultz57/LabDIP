@@ -13,5 +13,5 @@ public interface MessageInputMethods {
 
     public abstract void setInput();
     public abstract String getInput();
-    
+    // look into this
 }

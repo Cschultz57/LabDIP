@@ -22,6 +22,6 @@ public class StartUp {
         ConsoleWriter sixth = new ConsoleWriter();
         MessageOutputMethods seventh = new GUIWriter();
         GUIWriter eighth = new GUIWriter();
-
+            //fix me
     }
 }
