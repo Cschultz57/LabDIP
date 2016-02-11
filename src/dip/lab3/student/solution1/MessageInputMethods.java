@@ -9,7 +9,7 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public interface InputMethods {
+public interface MessageInputMethods {
 
     public abstract void setInput();
     public abstract String getInput();

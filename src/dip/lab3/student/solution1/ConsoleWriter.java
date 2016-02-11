@@ -9,10 +9,10 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public class ConsoleWriter implements OutputMethods {
+public class ConsoleWriter implements MessageOutputMethods {
 
     @Override
-    public void Output(InputMethods input) {
+    public void Output(MessageInputMethods input) {
         System.out.println(input.getInput());
     }
 

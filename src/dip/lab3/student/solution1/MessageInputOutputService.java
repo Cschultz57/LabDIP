@@ -9,14 +9,16 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public class ReadersAndWriters {
+public class MessageInputOutputService {
 //    /This part has me confused.
+    private MessageInputMethods input;
+    private MessageOutputMethods output;
     
-    public String getOutput(OutputMethods o) {
-        return o.Output(input);
+    public void getOutput(MessageOutputMethods o) {
+        //still wrong so look into it
     }
 
-    public String getInput(InputMethods i) {
+    public String getInput(MessageInputMethods i) {
         return i.getInput();
     }
 }

@@ -11,10 +11,10 @@ import javax.swing.JOptionPane;
  *
  * @author Carson Schultz
  */
-public class GUIWriter implements OutputMethods{
+public class GUIWriter implements MessageOutputMethods{
 
     @Override
-    public void Output(InputMethods input) {
+    public void Output(MessageInputMethods input) {
         JOptionPane.showMessageDialog(null,input.getInput());
     }
     

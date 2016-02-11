@@ -12,7 +12,7 @@ package dip.lab3.student.solution1;
 
 import java.util.Scanner;
 
-public class KeyboardInput implements InputMethods {
+public class KeyboardInput implements MessageInputMethods {
 
     private String message;
 

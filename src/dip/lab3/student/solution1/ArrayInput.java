@@ -9,7 +9,7 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-public class ArrayInput implements InputMethods{
+public class ArrayInput implements MessageInputMethods{
     String[] ai = {"1","2"};
 
     @Override
