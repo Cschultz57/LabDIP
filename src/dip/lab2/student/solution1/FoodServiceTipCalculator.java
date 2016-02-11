@@ -9,14 +9,14 @@ package dip.lab2.student.solution1;
  *
  * @author Carson Schultz
  */
-public class FoodServiceTipCalculator implements ServiceTipCalculator {
+public class FoodServiceTipCalculator implements TipCalculator {
 
-    private static final double MIN_BILL = 0.00;
-    private static final String BILL_ENTRY_ERR
+    private static double MIN_BILL = 0.00;
+    private static String BILL_ENTRY_ERR
             = "Error: bill must be greater than or equal to " + MIN_BILL;
-    private static final double GOOD_RATE = 0.20;
-    private static final double FAIR_RATE = 0.15;
-    private static final double POOR_RATE = 0.10;
+    private static double GOOD_RATE = 0.20;
+    private static double FAIR_RATE = 0.15;
+    private static double POOR_RATE = 0.10;
     private ServiceQuality serviceQuality;
     private double bill;
 

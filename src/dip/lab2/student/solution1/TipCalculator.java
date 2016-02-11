@@ -5,13 +5,7 @@
  */
 package dip.lab2.student.solution1;
 
-/**
- *
- * @author Carson Schultz
- */
-public class TipCalculator {
+public interface TipCalculator {
 
-    public double getTip(ServiceTipCalculator s) {
-        return s.getTip();
-    }
+    public abstract double getTip();
 }

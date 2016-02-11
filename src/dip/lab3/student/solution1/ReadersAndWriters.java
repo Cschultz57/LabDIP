@@ -10,12 +10,13 @@ package dip.lab3.student.solution1;
  * @author Carson Schultz
  */
 public class ReadersAndWriters {
-    ///This part has me confused.
+//    /This part has me confused.
     
-//     public String getOutput(OutputMethods o) {
-//        return o.getOutput(InputMethods input);
-//    }
-//    public String getInput(InputMethods i){
-//        return i.getInput();
-//    }
+    public String getOutput(OutputMethods o) {
+        return o.Output(input);
+    }
+
+    public String getInput(InputMethods i) {
+        return i.getInput();
+    }
 }
