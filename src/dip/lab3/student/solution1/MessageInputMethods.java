@@ -11,7 +11,5 @@ package dip.lab3.student.solution1;
  */
 public interface MessageInputMethods {
 
-    public abstract void setInput();
-    public abstract String getInput();
-    // look into this
+    public abstract String inputMessage();
 }

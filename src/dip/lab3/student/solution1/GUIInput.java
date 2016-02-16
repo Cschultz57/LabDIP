@@ -5,21 +5,19 @@
  */
 package dip.lab3.student.solution1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Carson Schultz
  */
-public class ArrayInput implements MessageInputMethods{
-    String[] ai = {"1","2"};
+public class GUIInput implements MessageInputMethods {
+
+    private String input;
 
     @Override
-    public void setInput() {
-        
+    public String inputMessage() {
+        return input = JOptionPane.showInputDialog(null, "Please enter a message.");
     }
 
-    @Override
-    public String getInput() {
-        return ai[0];
-    }
-    
 }

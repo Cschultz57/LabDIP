@@ -10,15 +10,18 @@ package dip.lab3.student.solution1;
  * @author Carson Schultz
  */
 public class MessageInputOutputService {
-//    /This part has me confused.
+
+
     private MessageInputMethods input;
     private MessageOutputMethods output;
-    
-    public void getOutput(MessageOutputMethods o) {
-        //still wrong look into it
+
+    public MessageInputOutputService(MessageInputMethods input, MessageOutputMethods output) {
+        this.input = input;
+        this.output = output;
     }
 
-    public String getInput(MessageInputMethods i) {
-        return i.getInput();
+    public void getOutput() {
+        String line = input.inputMessage();
+        output.outputMessage(line);
     }
 }

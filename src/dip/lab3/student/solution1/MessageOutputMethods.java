@@ -5,14 +5,13 @@
  */
 package dip.lab3.student.solution1;
 
-
-
 /**
  *
  * @author Carson Schultz
  */
 public interface MessageOutputMethods {
-// this class is broken too
-    public abstract void Output(MessageInputMethods input);
-    
+
+
+    public abstract void outputMessage(String output);
+
 }

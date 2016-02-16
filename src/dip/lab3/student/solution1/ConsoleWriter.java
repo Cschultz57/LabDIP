@@ -12,8 +12,8 @@ package dip.lab3.student.solution1;
 public class ConsoleWriter implements MessageOutputMethods {
 
     @Override
-    public void Output(MessageInputMethods input) {
-        System.out.println(input.getInput());
+    public void outputMessage(String output) {
+        System.out.println(output);
     }
 
 }

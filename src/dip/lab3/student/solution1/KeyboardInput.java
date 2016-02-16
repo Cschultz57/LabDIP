@@ -9,7 +9,6 @@ package dip.lab3.student.solution1;
  *
  * @author Carson Schultz
  */
-
 import java.util.Scanner;
 
 public class KeyboardInput implements MessageInputMethods {
@@ -17,17 +16,13 @@ public class KeyboardInput implements MessageInputMethods {
     private String message;
 
     @Override
-    public void setInput() {
+    public String inputMessage() {
 
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Please enter some text: ");
         message = keyboard.nextLine();
-
-    }
-
-    @Override
-    public String getInput() {
         return message;
     }
+
 }

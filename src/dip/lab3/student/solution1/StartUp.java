@@ -12,16 +12,12 @@ package dip.lab3.student.solution1;
 public class StartUp {
 
     public static void main(String[] args) {
-        MessageInputMethods first = new KeyboardInput();
-        //multiple options to show Liskov's property
-        KeyboardInput second = new KeyboardInput();
-        MessageInputMethods third = new ArrayInput();
-        ArrayInput fourth = new ArrayInput();
+        MessageOutputMethods output = new GUIWriter();
+        MessageInputMethods input = new KeyboardInput();
 
-        MessageOutputMethods fifth = new ConsoleWriter();
-        ConsoleWriter sixth = new ConsoleWriter();
-        MessageOutputMethods seventh = new GUIWriter();
-        GUIWriter eighth = new GUIWriter();
-            //fix me
+        MessageInputOutputService message = new MessageInputOutputService(input, output);
+
+        message.getOutput();
+
     }
 }
